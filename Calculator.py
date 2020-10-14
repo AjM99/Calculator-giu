@@ -91,10 +91,10 @@ for j in range(3,6):   #decides the loaction(row) for button.This includes space
  
                         #this is  for operators and other buttons,can do this method for numbers as well
     
-Deletebtn = Button(innerFrame,text= '',width=6,height=2,font=('arial', 18,'bold'),bd=7,bg='red') #text came from MS word symbols, it is the erase button symbol
+Deletebtn = Button(innerFrame,text= '    ',width=6,height=2,font=('arial', 18,'bold'),bd=7,bg='red') #text came from MS word symbols, it is the erase button symbol
 Deletebtn.grid(row=1,column=0,pady=1)     # loaction  
 
-AllClearbtn = Button(innerFrame,text= '   C',width=6,height=2,font=('arial', 18,'bold'),bd=7,bg='red',
+AllClearbtn = Button(innerFrame,text= 'C',width=6,height=2,font=('arial', 18,'bold'),bd=7,bg='red',
                      command= added_value.clear_Entry)
 AllClearbtn.grid(row=1,column=1,pady=1)
 
