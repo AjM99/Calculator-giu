@@ -101,11 +101,11 @@ AllClearbtn.grid(row=1,column=1,pady=1)
 Percentbtn = Button(innerFrame,text= '%',width=6,height=2,font=('arial', 18,'bold'),bd=7,bg='royal blue')
 Percentbtn.grid(row=2,column=1,pady=1)
 
-Divbtn = Button(innerFrame,text= '   /',width=6,height=2,font=('arial', 18,'bold'),bd=7,bg='light blue')
+Divbtn = Button(innerFrame,text= '/',width=6,height=2,font=('arial', 18,'bold'),bd=7,bg='light blue')
 Divbtn.grid(row=1,column=3,pady=1)
 
 
-Plusbtn = Button(innerFrame,text= '+',width=6,height=2,font=('arial', 18,'bold'),bd=7,bg='light blue')
+Plusbtn = Button(innerFrame,text= '    +',width=6,height=2,font=('arial', 18,'bold'),bd=7,bg='light blue')
 Plusbtn.grid(row=2,column=2,pady=1)
 
 Minusbtn = Button(innerFrame,text= '-',width=6,height=2,font=('arial', 18,'bold'),bd=7,bg='light blue')
