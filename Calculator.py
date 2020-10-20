@@ -105,10 +105,10 @@ Divbtn = Button(innerFrame,text= '/',width=6,height=2,font=('arial', 18,'bold'),
 Divbtn.grid(row=1,column=3,pady=1)
 
 
-Plusbtn = Button(innerFrame,text= '    +',width=6,height=2,font=('arial', 18,'bold'),bd=7,bg='light blue')
+Plusbtn = Button(innerFrame,text= '+',width=6,height=2,font=('arial', 18,'bold'),bd=7,bg='light blue')
 Plusbtn.grid(row=2,column=2,pady=1)
 
-Minusbtn = Button(innerFrame,text= '-',width=6,height=2,font=('arial', 18,'bold'),bd=7,bg='light blue')
+Minusbtn = Button(innerFrame,text= '   -',width=6,height=2,font=('arial', 18,'bold'),bd=7,bg='light blue')
 Minusbtn.grid(row=2,column=3,pady=1)
 
 Multibtn = Button(innerFrame,text= '*',width=6,height=2,font=('arial', 18,'bold'),bd=7,bg='light blue')
